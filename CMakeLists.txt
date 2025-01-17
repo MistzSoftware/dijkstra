@@ -16,8 +16,7 @@ set(CMAKE_CXX_COMPILER "clang++")
 ###################################################################
 
 add_executable(main
-  # "${CMAKE_CURRENT_SOURCE_DIR}/src/class/dfs.cc"
-  # "${CMAKE_CURRENT_SOURCE_DIR}/src/class/bfs.cc"
+  "${CMAKE_CURRENT_SOURCE_DIR}/src/class/dijkstra.cc"
   "${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp"
 )
 
